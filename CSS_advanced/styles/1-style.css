@@ -1,0 +1,5 @@
+/*add fluid scroll to the webpge */
+
+html {
+    scroll-behavior: smooth;
+}
