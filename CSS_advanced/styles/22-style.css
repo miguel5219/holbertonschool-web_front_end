@@ -192,6 +192,14 @@ ul.row {
     margin-right: auto;
 }
 
+.social-link {
+    display: block;
+}
+
+.social-link > svg {
+    fill: var(--text-color);
+}
+
 .footer {
     padding: var(--footer-padding);
 }
@@ -204,4 +212,8 @@ ul.row {
 
 .footer ul {
     text-align: right;
+}
+
+.footer-address {
+    color: var(--text-color)
 }
